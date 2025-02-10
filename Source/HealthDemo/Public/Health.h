@@ -21,7 +21,7 @@ class HEALTHDEMO_API UHealth : public UActorComponent
 	GENERATED_BODY()
 	
 private:
-	// make our variables private only the health script shoudl deal with the health values
+	// make our variables private only the health script should deal with the health values
 	UPROPERTY(VisibleAnywhere, Category ="Health|MaxHealth")
 	int MaxHealth = 100;
 	UPROPERTY(VisibleAnywhere, Category ="Health|HP")
